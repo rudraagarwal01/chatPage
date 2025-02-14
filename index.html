@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chats - Apollonian</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/components/chats/chat-viewer/chat-viewer.css">
+    <script src="https://kit.fontawesome.com/3ef6f07ea0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Left Sidebar -->
+        <aside class="sidebar">
+            <div class="logo">
+                <h2><i class="fa-solid fa-brain"></i> Apollonian</h2>
+            </div>
+
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="/home"><i class="fa-solid fa-house"></i> Home</a></li>
+                    <li><a href="/search"><i class="fa-solid fa-magnifying-glass"></i> Search</a></li>
+                    <li><a href="/posts"><i class="fa-solid fa-pen-nib"></i> Posts</a></li>
+                    <li><a href="/mentors"><i class="fas fa-user-friends"></i> Mentors</a></li>
+                    <li><a href="/chats" class="active"><i class="fa-regular fa-message"></i> Chats</a></li>
+                    <li><a href="/profile"><i class="fa-regular fa-user"></i> Profile</a></li>
+                </ul>
+            </nav>
+
+            <div class="switch-mode">
+                <button>
+                    <i class="fa-solid fa-toggle-off"></i> 
+                    Switch to light mode
+                </button>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <h1>Chats</h1>
+            
+            <!-- Search Bar -->
+            <div class="search-container">
+                <div class="search-box">
+                    <input type="text" placeholder="Ask AI or search for user">
+                    <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                </div>
+                <button class="chat-ai-btn">
+                    <i class="fa-regular fa-message"></i>
+                    Chat with AI
+                </button>
+            </div>
+
+            <!-- Chat List -->
+            <div class="chat-list">
+                <!-- First chat item with unread message -->
+                <div class="chat-item">
+                    <img src="/images/pfp1.png" alt="User">
+                    <div class="chat-info">
+                        <h3>Username</h3>
+                        <p>The recent message sent</p>
+                    </div>
+                    <div class="chat-meta">
+                        <span class="time">40 min ago</span>
+                        <span class="unread">1</span>
+                    </div>
+                </div>
+
+                <!-- Second chat item -->
+                <div class="chat-item">
+                    <img src="/images/pfp2.png" alt="User">
+                    <div class="chat-info">
+                        <h3>Username</h3>
+                        <p>The recent message sent</p>
+                    </div>
+                    <div class="chat-meta">
+                        <span class="time">40 min ago</span>
+                    </div>
+                </div>
+
+                <!-- Third chat item -->
+                <div class="chat-item">
+                    <img src="/images/pfp3.webp" alt="User">
+                    <div class="chat-info">
+                        <h3>Username</h3>
+                        <p>The recent message sent</p>
+                    </div>
+                    <div class="chat-meta">
+                        <span class="time">40 min ago</span>
+                    </div>
+                </div>
+
+                <!-- Fourth chat item -->
+                <div class="chat-item">
+                    <img src="/images/pfp4.webp" alt="User">
+                    <div class="chat-info">
+                        <h3>Username</h3>
+                        <p>The recent message sent</p>
+                    </div>
+                    <div class="chat-meta">
+                        <span class="time">40 min ago</span>
+                    </div>
+                </div>
+
+                <!-- Fifth chat item -->
+                <div class="chat-item">
+                    <img src="/images/pfp5.png" alt="User">
+                    <div class="chat-info">
+                        <h3>Username</h3>
+                        <p>The recent message sent</p>
+                    </div>
+                    <div class="chat-meta">
+                        <span class="time">40 min ago</span>
+                    </div>
+                </div>
+
+                <!-- Sixth chat item -->
+                <div class="chat-item">
+                    <img src="/images/profile.png" alt="User">
+                    <div class="chat-info">
+                        <h3>Username</h3>
+                        <p>The recent message sent</p>
+                    </div>
+                    <div class="chat-meta">
+                        <span class="time">40 min ago</span>
+                    </div>
+                </div>
+
+                <!-- Seventh chat item -->
+                <div class="chat-item">
+                    <img src="/images/pfp3.webp" alt="User">
+                    <div class="chat-info">
+                        <h3>Username</h3>
+                        <p>The recent message sent</p>
+                    </div>
+                    <div class="chat-meta">
+                        <span class="time">40 min ago</span>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
